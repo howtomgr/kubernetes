@@ -1,0 +1,77 @@
+{
+  "category": "orchestration",
+  "created_date": "2025-09-15T22:48:57.988338",
+  "default_ports": [
+    0,
+    1,
+    2,
+    3,
+    8,
+    1234,
+    2379,
+    2380,
+    6443,
+    8001,
+    10250,
+    10257,
+    10259,
+    30000,
+    32767
+  ],
+  "dependencies": [
+    "kubectl",
+    "kubeadm",
+    "kubelet",
+    "containerd"
+  ],
+  "description": "Kubernetes is a free and open-source container orchestration platform for automating deployment, scaling, and management of containerized applications. Originally developed by Google and now maintained by the Cloud Native Computing Foundation (CNCF), Kubernetes serves as the industry standard for container orchestration. It provides enterprise-grade security, scalability, and reliability for cloud-native applications, offering a robust alternative to proprietary solutions like AWS ECS, Azure Container Instances, or Google Cloud Run without vendor lock-in.",
+  "difficulty_level": "intermediate",
+  "documentation_url": "https://howtomgr.github.io/orchestration/kubernetes",
+  "estimated_setup_time": "15-30 minutes",
+  "features": [
+    "multi-os-support",
+    "comprehensive-documentation",
+    "security-hardening",
+    "performance-optimization",
+    "backup-restore-procedures",
+    "troubleshooting-guides"
+  ],
+  "guide_path": "/orchestration/kubernetes",
+  "installation_methods": [
+    "native-packages",
+    "source-compilation"
+  ],
+  "last_updated": "2025-09-15T22:48:57.988369",
+  "license": "Open Source",
+  "maintenance_status": "active",
+  "name": "kubernetes",
+  "repository_url": "https://github.com/howtomgr/kubernetes",
+  "spec_version": "2.0",
+  "subcategory": "orchestration",
+  "supported_os": [
+    "rhel",
+    "centos",
+    "rocky",
+    "almalinux",
+    "arch",
+    "alpine",
+    "opensuse",
+    "sles",
+    "macos",
+    "freebsd",
+    "windows"
+  ],
+  "tags": [
+    "orchestration",
+    "containerization",
+    "observability",
+    "data-storage",
+    "networking",
+    "security",
+    "data-protection",
+    "communication"
+  ],
+  "title": "Kubernetes Installation Guide",
+  "version": "1.0.0",
+  "website_url": "https://howtomgr.github.io/orchestration/kubernetes"
+}
